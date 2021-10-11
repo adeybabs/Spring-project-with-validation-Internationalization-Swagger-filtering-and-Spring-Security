@@ -26,4 +26,9 @@ public class PversionController {
     public PersonV2 paramV2(){
         return new PersonV2(new Name("Bob", "Charlie"));
     }
+
+    @GetMapping("v1/person_test")
+    public PersonV1 personV234(){
+        return new PersonV1("Bob Test");
+    }
 }
