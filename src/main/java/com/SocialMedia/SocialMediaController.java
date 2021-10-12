@@ -1,4 +1,4 @@
-package com.rest.webservices.socialMedia;
+package com.SocialMedia;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;

@@ -1,4 +1,4 @@
-package com.rest.webservices.socialMedia;
+package com.SocialMedia;
 
 public class SocialMediaBean {
 
