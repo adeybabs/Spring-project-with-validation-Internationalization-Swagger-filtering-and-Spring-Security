@@ -1,10 +1,18 @@
 package com.user.demo;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Size;
 import java.util.Date;
 
+//map to a table in JPA
+@Entity
 public class User {
+
+    @Id
+    @GeneratedValue
     private Integer id;
 
     //validating the name
